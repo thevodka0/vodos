@@ -1,2 +1,1 @@
-<h1> test </h1>
-<script>alert(1)</script>
+<h1 style="color: red">test</h1>
