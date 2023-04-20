@@ -1,4 +1,4 @@
-<h1 align="center">VODOS</h1>
+<h1 align="center">VODOS ᵈᵉᵐᵒ</h1>
 <i><b>Vodos</b>, Python ile yazılmış SMS-Bomber araçlarından bir tanesidir. Yaklaşık 55'e yakın site üzerinden doğrulama işlemlerini sağlayarak hedef telefon adresine SMS saldırıları düzenleyebilir. Proje şu anlık Türkiye hatları üzerine kurulmuştur ancak yakında global olarak bütün telefon numaralarını destekleyecektir.</i>
 
 <h2 align="center">Sorumluluk Reddi</h2>
