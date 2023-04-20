@@ -11,6 +11,41 @@
 <p> </p>
 <i><b>Bu araç, SMS hizmetleri için potansiyel olarak zararlı veya tehlikeli olabilecek materyaller içermektedir.</b> Buna erişmeden, kullanmadan veya başka bir şekilde yanlış bir şekilde kullanmadan önce ilinizdeki/ülkenizdeki yasalara bakın.</i>
 
+<h2>Kurulum</h2>
+<p>Kurulum için öncelik olarak Python 3 sürümlerini indirmiş olmanız gerekiyor. Eğer Python 3 sürümlerini indirmediyseniz <a href="https://www.python.org/downloads/">buraya tıklayarak</a> Python'un resmi sitesine ulaşabilirsiniz.</p>
+<p>Eğer windows harici terminal uygulamaları kullanıyorsanız git paketini yükleyin ve yoksa Python3 indiriniz:</p>
+
+```
+pkg install git
+pkg install python3
+```
+
+<p>Projemizi Klonlayalım: </p>
+
+```
+git clone https://github.com/vo-ai/vodos/
+```
+
+<p>Projemizin bulunduğu dizine gidelim: </p>
+
+```
+cd vodos
+```
+
+<p>Artık aracımızın içindeyiz. Aracın çalışabilmesi için bazı kütüphanelere ihtiyacmız var. <code>requirements.txt</code> dosyasının içinde gerekli kütüphanelerin isimleri ve sürümleri yer almaktadır. Aşağıdaki komut ile bütün kütüphaneleri tek bir komut kullanarak kurabilirsiniz.</p>
+
+```
+pip install -r requirements.txt
+```
+
+<p>Gerekli kütüphanelerde hatasız bir şekilde indirildiyse artık aracımızı kullanmaya hazırız. Belirli argümanı dosyaya bildirerek kodu başlatalım: </p>
+
+```
+python3 vodos.py tel=NUMARA
+```
+
+<b>Önemli: </b><i>Telefon numarasını '5' ile başlayacak şekilde ve boşluk olmadan yazınız. Aksi taktirde hata alırsınız.</i>
+<b>Not: </b><i>Araç Python==3.11.1 sürümü kullanılarak yazılmıştır. Modül versiyonları <code>requirements.txt</code> içerisinde yer almaktadır. Aldığınız modül hatalarında sürüm uyuşmazlığı gibi durumlar oluşursa gerekli modülün farklı sürümlerini indirmeyi amaçlayabilirsiniz.</i>
 <h2>İşleyiş</h2>
 <i>Proje belirli bir periyod üzerine kurulmuştur. Bu periyod hedeflenen sitelere hedeflenen telefon numarası ile kayıt oluşturarak doğrulama kodunun hedeflenen numara sahibine gitmesini sağlar. Süre olarak hızlı çalışır ancak internet hızı, işlemci hızı, Sunucu durumu veya DNS çözümleme gibi durumlar hızı etkileyen faktörlerdir.</i>
 
