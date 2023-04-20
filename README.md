@@ -33,9 +33,8 @@
 <h2>Etiketler</h2>
 sms atack, sms saldırısı, sms bombası, sms bomber, sms toolu, sms çökeltme, telefon numarası, +90, 5, türkçe, the vodka, sms güvenliği, siber atak, siber attack, siber tool, hacking tool, exploitation tool, abuse tool, istismar aracı
 
-<h2>Ayrıca Teşekkür Ederiz</h2>
-<table>
-  <tr align="center">
-    <td><a href="https://github.com/cryptdeep"><img src="https://avatars.githubusercontent.com/u/78962948?s=100" /><br /><sub><b>Cryptdeep</b></sub></a></td>
-  </tr>
-<table>
+<h2 align="center">Yapımcı</h2>
+<div align="center">
+  <a href="https://github.com/cryptdeep" align="center"><img src="https://avatars.githubusercontent.com/u/131310643?v=1" style="width:100px;"/><br /><sub><b>Cryptdeep</b></sub></a>
+</div>
+
