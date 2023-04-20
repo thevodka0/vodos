@@ -41,7 +41,7 @@ pip install -r requirements.txt
 <p>Gerekli kütüphanelerde hatasız bir şekilde indirildiyse artık aracımızı kullanmaya hazırız. Belirli argümanı dosyaya bildirerek kodu başlatalım: </p>
 
 ```
-python3 vodos.py tel=NUMARA
+python3 vodos.py --tel=NUMARA
 ```
 
 <b>Önemli: </b><i>Telefon numarasını '5' ile başlayacak şekilde ve boşluk olmadan yazınız. Aksi taktirde hata alırsınız.</i>
