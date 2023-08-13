@@ -334,20 +334,6 @@ class SendSms():
             print(f"{Fore.LIGHTRED_EX}[-] api.yaanimail.com {Style.RESET_ALL}")  
             
              
-    #defacto.com.tr
-    def Defacto(self):
-        try:
-            url = "https://www.defacto.com.tr:443/Customer/SendPhoneConfirmationSms"
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0", "Accept": "*/*", "Accept-Language": "tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3", "Accept-Encoding": "gzip, deflate", "Referer": "https://www.defacto.com.tr/Login?newUser=True&ReturnUrl=%2FCustomer%2FSendPhoneConfirmationSms", "Content-Type": "application/x-www-form-urlencoded", "X-Requested-With": "XMLHttpRequest", "Origin": "https://www.defacto.com.tr", "Dnt": "1", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "Te": "trailers"}
-            data = {"mobilePhone": self.phone}
-            r = requests.post(url, headers=headers, data=data)
-            if r.json()["Data"]["IsSMSSend"] == True:
-                print(f"{Fore.LIGHTGREEN_EX}[+] defacto.com.tr {Style.RESET_ALL}")
-                self.adet += 1
-            else:
-                raise
-        except:
-            print(f"{Fore.LIGHTRED_EX}[-] defacto.com.tr {Style.RESET_ALL}")
     
     
     #mopas.com.tr
